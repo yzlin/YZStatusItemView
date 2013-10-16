@@ -18,6 +18,7 @@
 		C3007F98180D197300A1B6F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3007F77180D197300A1B6F1 /* Cocoa.framework */; };
 		C3007FA0180D197300A1B6F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3007F9E180D197300A1B6F1 /* InfoPlist.strings */; };
 		C3007FA2180D197300A1B6F1 /* YZStatusItemViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3007FA1180D197300A1B6F1 /* YZStatusItemViewDemoTests.m */; };
+		C365C298180D1D06009AD1CF /* YZStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C365C297180D1D06009AD1CF /* YZStatusItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C3007F9D180D197300A1B6F1 /* YZStatusItemViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YZStatusItemViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C3007F9F180D197300A1B6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3007FA1180D197300A1B6F1 /* YZStatusItemViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZStatusItemViewDemoTests.m; sourceTree = "<group>"; };
+		C365C296180D1D06009AD1CF /* YZStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZStatusItemView.h; sourceTree = "<group>"; };
+		C365C297180D1D06009AD1CF /* YZStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZStatusItemView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				C3007F89180D197300A1B6F1 /* YZAppDelegate.h */,
 				C3007F8A180D197300A1B6F1 /* YZAppDelegate.m */,
+				C365C296180D1D06009AD1CF /* YZStatusItemView.h */,
+				C365C297180D1D06009AD1CF /* YZStatusItemView.m */,
 				C3007F8C180D197300A1B6F1 /* MainMenu.xib */,
 				C3007F8F180D197300A1B6F1 /* Images.xcassets */,
 				C3007F7E180D197300A1B6F1 /* Supporting Files */,
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C365C298180D1D06009AD1CF /* YZStatusItemView.m in Sources */,
 				C3007F84180D197300A1B6F1 /* main.m in Sources */,
 				C3007F8B180D197300A1B6F1 /* YZAppDelegate.m in Sources */,
 			);
@@ -465,6 +471,7 @@
 				C3007FA7180D197300A1B6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3007FA8180D197300A1B6F1 /* Build configuration list for PBXNativeTarget "YZStatusItemViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				C3007FAA180D197300A1B6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

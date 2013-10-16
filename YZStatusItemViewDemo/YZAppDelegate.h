@@ -10,6 +10,8 @@
 
 @interface YZAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, assign) IBOutlet NSWindow *window;
+@property (nonatomic, weak) IBOutlet NSMenu *mainMenu;
+@property (nonatomic, weak) IBOutlet NSMenu *secondMenu;
 
 @end
