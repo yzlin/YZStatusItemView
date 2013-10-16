@@ -21,7 +21,6 @@
 // THE SOFTWARE.
 
 static const CGFloat kYZStatusItemViewImageHPadding = 4.0f;
-static const CGFloat kYZStatusItemViewImageVPadding = 3.0f;
 
 #import "YZStatusItemView.h"
 
