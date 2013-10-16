@@ -2,6 +2,8 @@
 
 Customized view for NSStatusItem. YZStatusItemView fixes status bar icon's [vertical center issue](http://alastairs-place.net/blog/2013/07/23/nsstatusitem-what-size-should-your-icon-be/), moreover, provides more features such as right-click menu.
 
+The original idea is inspired by [RHStatusItemView](https://github.com/heardrwt/RHStatusItemView).
+
 ## Demo
 
 Build and run the `YZStatusItemViewDemo` project.
